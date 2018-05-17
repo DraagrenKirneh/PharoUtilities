@@ -8,7 +8,7 @@ baseline: spec
 			spec
 				className: #ConfigurationOfSton;
 				versionString: #stable;
-				repository: 'http://ss3.gemstone.com/ss/STON'
+				repository: 'http://ss3.gemstone.com/ss/STON/'
 			];
 		blessing: #baseline;
 		package: #'FileTreeFix';
