@@ -6,9 +6,9 @@ baseline: spec
 	spec for: #common do: [ 
 		spec project: 'Ston' with: [
 			spec
-				className: #ConfigurationOfSton;
-				versionString: #stable;
-				repository: 'http://ss3.gemstone.com/ss/STON/'
+				className: 'ConfigurationOfSton';
+				versionString: #'bleedingEdge';
+				repository: 'http://ss3.gemtalksystems.com/ss/STON'
 			];
 		blessing: #baseline;
 		package: #'FileTreeFix';
