@@ -1,0 +1,4 @@
+baselines
+resetTaskbar
+
+	TaskbarMorph reset

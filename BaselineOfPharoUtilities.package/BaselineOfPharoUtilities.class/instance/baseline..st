@@ -15,7 +15,7 @@ baseline: spec
 		spec 
 			package: #FileTreeFix with: [ spec requires: #(Ston) ];
 			package: #FuzzySpotter;	
-			package: #IconTaskbar;
+			package: #IconTaskbar with: [ spec postLoadDoIt: #resetTaskbar ];
 			
 			group: 'filetree' with: #(FileTreeFix);
 			group: 'spotter' with: #(FuzzySpotter);
