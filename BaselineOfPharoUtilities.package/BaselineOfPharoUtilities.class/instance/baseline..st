@@ -3,10 +3,17 @@ baseline: spec
 
 	<baseline>
 
-	spec for: #'common' do: [
+	spec for: #common do: [
+								
+		spec project: #Ston with: [
+			spec
+				className: 'ConfigurationOfSton';
+				versionString: #'bleedingEdge';
+				repository: 'http://ss3.gemtalksystems.com/ss/STON'
+			].						
 								
 		spec 
-			package: #FileTreeFix;
+			package: #FileTreeFix with: [ spec requires: #(Ston) ];
 			package: #FuzzySpotter;	
 			package: #IconTaskbar;
 			

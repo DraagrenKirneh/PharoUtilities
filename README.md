@@ -7,6 +7,13 @@ This packages configures filetree metadata to be ordered by name instead unorder
 
 ```smalltalk
 Metacello new
+   baseline: 'PharoUtilities';
+   repository: 'github://DraagrenKirneh/PharoUtilities';
+   load.
+```
+
+```smalltalk
+Metacello new
    baseline: 'FileTreeFix';
    repository: 'github://DraagrenKirneh/PharoUtilities/FileTreeFix';
    load.
